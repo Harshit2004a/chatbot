@@ -13,10 +13,10 @@ import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer
 
+BASE_DIR = os.path.dirname(__file__)
 
-
-DISEASE_SYMPTOMS_CSV = "/chatbot/DiseaseAndSymptoms.csv"
-PRECAUTION_CSV       = "/chatbot/Disease precaution.csv"
+DISEASE_SYMPTOMS_CSV = os.path.join(BASE_DIR, "DiseaseAndSymptoms.csv")
+PRECAUTION_CSV = os.path.join(BASE_DIR, "Disease precaution.csv")
 
 
 SCREENSHOT_PATH = "/mnt/data/Screenshot 2025-11-25 at 3.13.10 AM.png"
