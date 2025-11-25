@@ -1,2 +1,7 @@
 streamlit
 openai
+streamlit 
+pandas 
+sentence-transformers 
+torch 
+numpy
