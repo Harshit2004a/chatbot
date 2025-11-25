@@ -6,5 +6,5 @@
 
 - The final application is deployed as a Streamlit web app where users enter symptoms and receive condition suggestions.
 
-   (Still in development)
+   (Under improvement)
 
