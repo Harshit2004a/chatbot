@@ -15,8 +15,8 @@ from sentence_transformers import SentenceTransformer
 
 
 
-DISEASE_SYMPTOMS_CSV = "/workspaces/chatbot/DiseaseAndSymptoms.csv"
-PRECAUTION_CSV       = "/workspaces/chatbot/Disease precaution.csv"
+DISEASE_SYMPTOMS_CSV = "/chatbot/DiseaseAndSymptoms.csv"
+PRECAUTION_CSV       = "/chatbot/Disease precaution.csv"
 
 
 SCREENSHOT_PATH = "/mnt/data/Screenshot 2025-11-25 at 3.13.10 AM.png"
